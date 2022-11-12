@@ -32,3 +32,30 @@ A variable's value can be used again within the same file using `${var}`.
 PATH=moringa/credentials
 PASSWORD_PATHS=${PATH}/passwords
 ```
+
+### Using Git with environment variables
+Its would be pointless to hide crucial credentials in the `.env` file and push the file to git.
+
+When commiting your code to your Git repository, you can ignore the `.env` file by adding it to your `.gitignore`.
+
+A local `.gitignore` file is placed in the root directory of the project/Program. 
+
+One Can also create a global file where any entry to that file will be ignored in all of your Git repositories.
+
+To create a local `.gitignore` file, create a text file named `.gitignore`.
+
+You can now list the file(s) or folder(s) that you would wish Git to ignore.
+
+Example of a `.gitignore` file:
+
+```
+# used to add comments
+# Ignore passwords folder
+passwords
+
+# Ignore all the text files
+*.txt
+
+# Ignore our credentials
+.env
+```
