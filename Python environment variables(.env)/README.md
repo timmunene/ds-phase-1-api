@@ -11,10 +11,18 @@ pip install python-dotenv
 ## Environment Variable
 Refers to variable comprising of key-value pairs for the current user environment stored outside the program/application through functionality built into the operating system.
 
+### Create a `.env` file
+
+Name the file just `.env` and *not* `~~file.env~~`.
+
+You can now add `key=value` pairs inside the `.env` file.
+
+📝 Avoid whitespaces before or after the `=` and putting the key or value in `""` strings.
+
 The following is an example of the contents of a `.env` file:
 
 ```
-Password="Moringa@123"
+Password=Moringa@123
 ACCESS_TOKEN="ABCMoringasupersecret123XYZ"
 ```
 
