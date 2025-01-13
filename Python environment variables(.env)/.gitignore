@@ -1,3 +1,28 @@
 # Ignore environment variables with credentials
 .env
 
+# ignore a specific file 
+filename.txt
+
+# ignore all files with .txt extension
+*.txt
+
+# ignore entire folder/directory
+folder_name/
+
+# system files
+/node_modules/
+/dist/
+/.vscode/
+/.idea/
+
+# temporary files
+*.log
+*.tmp 
+*.swp 
+
+# sensitive data 
+*.env 
+secrets.json
+
+
