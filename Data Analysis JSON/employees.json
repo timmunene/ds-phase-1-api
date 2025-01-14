@@ -1,0 +1,22 @@
+{
+    "employees": [
+        {
+            "id": 9178,
+            "name": "Sylvia",
+            "age": 24,
+            "department": "tech & data"
+        },
+        {
+            "id": 8124,
+            "name": "Peter",
+            "age": 34,
+            "department": "engineering"
+        },
+        {
+            "id": 2279,
+            "name": "Teresia",
+            "age": 26,
+            "department": "finance"
+        }
+    ]
+}
